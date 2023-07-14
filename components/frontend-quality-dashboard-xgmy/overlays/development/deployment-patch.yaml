@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: frontend-quality-dashboard-xgmy
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/multi-comp-e2e-ufxu-tenant/mc-quality-dashboard/frontend-quality-dashboard-xgmy@sha256:965ca7a28a5f33d952f6a3ee33491713a7f155a3ed4909f7fd87edc8a0ade41f
+        name: container-image
+        resources: {}
+status: {}
